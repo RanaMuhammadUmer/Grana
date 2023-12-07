@@ -1,0 +1,38 @@
+[
+    {
+      "Id": 1,
+      "Name": "Bali House",
+      "Type": "House",
+      "Price": 1200
+    },
+    {
+      "Id": 1,
+      "Name": "House 2",
+      "Type": "House",
+      "Price": 1200
+    },
+    {
+        "Id": 1,
+        "Name": "Bali House 3",
+        "Type": "House",
+        "Price": 1200
+      },
+      {
+        "Id": 1,
+        "Name": "House 4",
+        "Type": "House",
+        "Price": 1200
+      },
+      {
+        "Id": 1,
+        "Name": "Bali House 5",
+        "Type": "House",
+        "Price": 1200
+      },
+      {
+        "Id": 1,
+        "Name": "House 2 6",
+        "Type": "House",
+        "Price": 1200
+      }
+  ]
