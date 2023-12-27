@@ -5,12 +5,13 @@ import { AddPropertyComponent } from './Property/add-property/add-property.compo
 import { PropertyDetailComponent } from './Property/property-detail/property-detail.component';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
 import { UserLoginComponent } from './user/user-login/user-login.component';
+import { PropertyDetailResolverService } from './Property/property-detail/property-detail-resolver.service';
 
 const routes: Routes = [
   { path: '', component: PropertyListComponent },
   { path: 'rent-property', component: PropertyListComponent },
   { path: 'add-property', component: AddPropertyComponent },
-  { path: 'property-detail/:id', component: PropertyDetailComponent },
+  { path: 'property-detail/:id', component: PropertyDetailComponent, resolve:{prp:PropertyDetailResolverService} },
   { path: 'register', component: UserRegisterComponent },
   { path: 'login', component: UserLoginComponent },
 
